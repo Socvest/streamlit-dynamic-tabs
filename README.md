@@ -1,6 +1,17 @@
 # streamlit-dynamic-tabs
 Create and close tabs
 
+![General demonstration pt1.gif](./videos/General demonstration pt1.gif)
+![General demonstration pt2.gif](./videos/General demonstration pt2.gif)
+
+If your users already have tabs, load them up when the app loads:
+
+![Already have tabs saved.gif](./videos/Already have tabs saved.gif)
+
+Mobile support - more compact and bouncy add tab button interaction
+
+![Already have tabs saved.gif](./videos/Mobile support.gif)
+
 
 This is a component that helps users make and close tabs dynamically. The tab titles and subsequent content can be collated into a list of dictionaries, saved and recalled for users to view as when they need it (of course you would have to create this part yourself but the component allows for this).
 
