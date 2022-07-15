@@ -36,7 +36,7 @@ To install it:
 - numOfTabs: The number of tabs that can be made if 'limitTabs' variable is True
 - styles: CSS designs you wish to apply to tabs (follow the style.css file here as a guide for what can be changed)
 
-I am yet to use the react funcitonality to adjust the iframe as per the streamlit documentation - lazy on my part. For now please download and place the iFrame.css file and import it in your app file. 
+I am yet to use the react funcitonality to adjust the iframe as per the streamlit documentation - lazy on my part. For now please download and place the [iFrame.css](https://github.com/Socvest/streamlit-dynamic-tabs/tree/main/dynamic_tabs) file and import it in your app file. 
 
 Examples:
 
