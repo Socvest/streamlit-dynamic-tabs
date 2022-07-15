@@ -20,6 +20,7 @@ Possibilities:
 - Change the add button via material ui icons (google)
 - Can limit the number of tabs a user can create
 - Can change the design of the tabs
+- When there is only one tab, the close button does not appear. This is because upon creating a new tab, the tab is active but value is not passed onto streamlit. So create some code to direct users to click on the tab to view content. Wanted to limited the use of Streamlit's api to send values to the python as it creates buggy behvaiour in the component. 
 
 Its built on the streamlit custom components typescript template
 
