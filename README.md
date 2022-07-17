@@ -82,8 +82,8 @@ else:
     if d_tabs['title'] == "":
         title_placeholder.title('New Tab')
         st.info("Create new tabs")
-        if d_tabs != "":
-            st.write("Inside tab")
+    elif d_tabs['title'] == {insert tab title here}:
+        st.write("Inside tab")
 ```
 
 
