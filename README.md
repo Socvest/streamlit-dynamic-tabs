@@ -77,13 +77,11 @@ elif d_tabs['title'] == "":
 
 else:
     time.sleep(1)
-    title_placeholder = st.empty()
-    title_placeholder.title(d_tabs['title'])
-    if d_tabs['title'] == "":
-        title_placeholder.title('New Tab')
-        st.info("Create new tabs")
-    elif d_tabs['title'] == {insert tab title here}:
-        st.write("Inside tab")
+    st.title(d_tabs['title'])
+    
+    if d_tabs['title'] == {insert tab title here} <for example st.session_state['foo']['title']>:
+        st.write(f"Inside tab {st.session_state['foo']['title']")
+     
 ```
 
 
