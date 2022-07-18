@@ -52,7 +52,7 @@ function DynamicTabs (props: ComponentProps) {
       setBtnState({activeTabId: bState})
 
       const output = tabList[bState]
-      Streamlit.setComponentValue(output)
+      Streamlit.setComponentValue({currentTab:output, deletedTab:{title:'None'}})
       Streamlit.setComponentReady()
   }
 
@@ -66,7 +66,7 @@ function DynamicTabs (props: ComponentProps) {
   function saveTitle(index:number){
 
     let output = tab[index]
-    Streamlit.setComponentValue(output)
+    Streamlit.setComponentValue({currentTab:output, deletedTab:{title:'None'}})
     Streamlit.setComponentReady()
     setInputClicked({index:index, clicked:false})
   }
@@ -75,7 +75,7 @@ function DynamicTabs (props: ComponentProps) {
     
     setBtnState({activeTabId:id})
     const output = tab[id]
-    Streamlit.setComponentValue(output)
+    Streamlit.setComponentValue({currentTab:output, deletedTab:{title:'None'}})
     Streamlit.setComponentReady()
 
   };
