@@ -71,16 +71,16 @@ if d_tabs == 0:
     st.info("""Click on a tab to view contents \n - Name tab by clicking in the input area \n - After renaming, click save to save the tab's title \n - To close the tab, hover over the tab click the close button that slides out""")
   st.stop()
     
-elif d_tabs['title'] == "":
+elif d_tabs['currentTab']['title'] == "":
     time.sleep(1)
     st.title("New Tab")
 
 else:
     time.sleep(1)
-    st.title(d_tabs['title'])
+    st.title(st.session_state['foo']['currentTab']['title'])
     
     if d_tabs['title'] == {insert tab title here} <for example st.session_state['foo']['title']>:
-        st.write(f"Inside tab {st.session_state['foo']['title']")
+        st.write(f"Inside tab {st.session_state['foo']['currentTab']['title']")
      
 ```
 
