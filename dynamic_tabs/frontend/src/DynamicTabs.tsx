@@ -29,9 +29,7 @@ function DynamicTabs (props: ComponentProps) {
 
     const output = tab.length === 0 ? null : btnState.activeTabId
     setBtnState({activeTabId:output})
-    const test = output === null ? 0 : tab
-    //Streamlit.setComponentValue(test)
-    console.log(test)
+    
       
   }
 
